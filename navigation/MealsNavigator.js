@@ -39,6 +39,7 @@ const MealsNavigator = createStackNavigator(
     MealDetail: MealDetailScreen
   },
   {
+    // initialRouteName: 'Categories',
     defaultNavigationOptions: defaultStackNavOptions
   }
 );
@@ -49,6 +50,7 @@ const FavNavigator = createStackNavigator(
     MealDetail: MealDetailScreen
   },
   {
+    // initialRouteName: 'Categories',
     defaultNavigationOptions: defaultStackNavOptions
   }
 );
@@ -111,6 +113,9 @@ const FiltersNavigator = createStackNavigator(
     Filters: FiltersScreen
   },
   {
+    // navigationOptions: {
+    //   drawerLabel: 'Filters!!!!'
+    // },
     defaultNavigationOptions: defaultStackNavOptions
   }
 );
